@@ -1,3 +1,9 @@
+class Magazine {
+  String language = "Tamil";
+  public void mag_lang() {
+    System.out.println("Language of Magazine is "+ language);
+  }
+}
 
 /** 
  * The HelloWorldApp class implements an application that simply prints "Hello World" to standard output.
