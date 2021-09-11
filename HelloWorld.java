@@ -5,6 +5,18 @@ class Magazine {
   }
 }
 
+class Weekly_mag extends Magazine {
+  String mag_name;
+  public Weekly_mag(String name) {
+    mag_name=name;
+  }
+  public void show_mag_info() {
+    System.out.println("Magazine name is "+ mag_name);
+  }
+
+} 
+
+
 /** 
  * The HelloWorldApp class implements an application that simply prints "Hello World" to standard output.
  */
