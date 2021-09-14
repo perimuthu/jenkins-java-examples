@@ -24,5 +24,9 @@ public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World");
     System.out.println("This Change was made on Sep 10th 2021 for testing Git Jenkins");
+    System.out.println("Hello world of Magazines !");
+    Weekly_mag weekly_mag = new Weekly_mag("Kalki");
+    weekly_mag.mag_lang();
+    weekly_mag.show_mag_info();
   }
 }
