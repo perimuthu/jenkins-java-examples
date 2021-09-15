@@ -28,5 +28,6 @@ public class HelloWorld {
     Weekly_mag weekly_mag = new Weekly_mag("Kalki");
     weekly_mag.mag_lang();
     weekly_mag.show_mag_info();
+    System.out.println("Changes made on Sep 15th @ 01:10 for testing multiple accounts in Github");
   }
 }
